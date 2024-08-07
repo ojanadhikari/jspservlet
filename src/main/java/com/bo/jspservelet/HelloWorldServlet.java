@@ -2,10 +2,8 @@ package com.bo.jspservelet;
 
 import java.io.*;
 import javax.servlet.*;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-@WebServlet("/m")
 public class HelloWorldServlet extends HttpServlet {
 
     @Override
