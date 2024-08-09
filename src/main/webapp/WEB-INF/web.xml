@@ -17,6 +17,23 @@
         <servlet-name>custom</servlet-name>
         <servlet-class>com.bo.jspservelet.CustomServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>addCookie</servlet-name>
+        <servlet-class>com.bo.jspservelet.CookieServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>readCookie</servlet-name>
+        <servlet-class>com.bo.jspservelet.ReadCookieServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>session</servlet-name>
+        <servlet-class>com.bo.jspservelet.SessionServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>readSession</servlet-name>
+        <servlet-class>com.bo.jspservelet.ReadSessionServlet</servlet-class>
+    </servlet>
 
 
     <servlet-mapping>
@@ -32,5 +49,25 @@
     <servlet-mapping>
         <servlet-name>custom</servlet-name>
         <url-pattern>/cust</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>addCookie</servlet-name>
+        <url-pattern>/add-cookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>readCookie</servlet-name>
+        <url-pattern>/read-cookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>session</servlet-name>
+        <url-pattern>/session</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>readSession</servlet-name>
+        <url-pattern>/read-session</url-pattern>
     </servlet-mapping>
 </web-app>
